@@ -1,0 +1,17 @@
+logging:
+  level:
+    root: INFO
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/frauddb
+    username: fraud
+    password: fraudpass
+
+  jpa:
+    hibernate:
+      ddl-auto: update  # auto-create/update tables for dev
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
