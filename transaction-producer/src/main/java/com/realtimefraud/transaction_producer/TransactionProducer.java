@@ -11,8 +11,7 @@ public class TransactionProducer {
     private final KafkaTemplate<String, Transaction> kafkaTemplate;
     private final TransactionGenerator generator;
 
-    public TransactionProducer(KafkaTemplate<String, Transaction> kafkaTemplate,
-                               TransactionGenerator generator) {
+    public TransactionProducer(KafkaTemplate<String, Transaction> kafkaTemplate, TransactionGenerator generator) {
         this.kafkaTemplate = kafkaTemplate;
         this.generator = generator;
     }

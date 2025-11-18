@@ -5,5 +5,9 @@ spring:
   profiles:
     active: dev
 
+  kafka:
+    consumer:
+      auto-offset-reset: latest
+
 server:
   port: 8080
