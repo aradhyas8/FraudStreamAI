@@ -16,6 +16,6 @@ public class Transaction {
     private Double amount;
     private LocalDateTime timestamp;
     private String location;
-    private String merchantCatgory;
+    private String merchantCategory;
     private Boolean isInternational;
 }
